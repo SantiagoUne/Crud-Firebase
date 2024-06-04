@@ -96,8 +96,13 @@ taskForm.addEventListener("submit", async (e) => {
 });
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./js/sw.js')
-  .then(reg => console.log('Registro de Sw exitoso', reg))
-  .catch(err => console.warn('Error al tratar de registrar el sw', err))
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('./js/sw.js').then(function(registration) {
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
 }
+
 
