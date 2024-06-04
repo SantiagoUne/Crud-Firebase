@@ -42,8 +42,8 @@
     "display_override": ["window-controls-overlay"],
     "protocol_handlers": [
         {
-            "protocol": "web+crud",
-            "url": "/protocol-handler/crud?uri=%s"
+            "protocol": "web+crudfirebase",
+            "url": "/protocol-handler?uri=%s"
         }
     ]
 }
