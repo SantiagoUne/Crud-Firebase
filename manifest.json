@@ -6,7 +6,7 @@
     "theme_color": "#F5F5F5",
     "orientation": "portrait",
     "display": "standalone",
-    "start_url": "/index.html?utm_source=web_app_manifest",
+    "start_url": "https://santiagoune.github.io/Crud-Firebase/",
     "scope": "/",
     "lang": "es-MX",
     "icons": [
