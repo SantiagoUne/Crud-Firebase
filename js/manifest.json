@@ -38,7 +38,12 @@
             "sizes": "1018x1154",
             "type": "image/jpg"
         }
+    ],
+    "display_override": ["window-controls-overlay"],
+    "protocol_handlers": [
+        {
+            "protocol": "web+crud",
+            "url": "/protocol-handler/crud?uri=%s"
+        }
     ]
-    
-    
 }
