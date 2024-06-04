@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Styles.css" />
+    <link rel="shortcut icon" href="./img/icono.ico" type="image/x-icon" />
+    <title>FIREBASE</title>
+    <script src="./js/footer.js"></script>
+    <script src="./js/header.js"></script>
+    <link rel="manifest" href="./js/manifest.json" />
+</head>
+
+<body>
+  <header-component></header-component>
+        <main> 
+          <div class="container p-4">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h1 class="h4">Agrega una tarea</h1>
+      
+                    <form id="task-form">
+                      <label for="title">Titulo:</label>
+                      <input
+                        type="text"
+                        id="task-title"
+                        class="form-control mb-3"
+                        class="My First Title"
+                        placeholder="Titulo de la tarea"
+                        autofocus
+                      />
+      
+                      <label for="description">Descripcion:</label>
+                      <textarea
+                        id="task-description"
+                       
+                        class="form-control mb-3"
+                        placeholder="Descripcion de la tarea a realizar"
+                      ></textarea>
+      
+                      <button class="btn btn-primary" id="btn-task-form">Guardar</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+             
+              <div class="col-md-6" id="tasks-container"></div>
+            </div>
+          </div>
+      </main>
+      <footer-component></footer-component>
+  </body>
+  <script src="./js/app.js" type="module"></script>
+</html>
