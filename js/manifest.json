@@ -16,5 +16,11 @@
             "sizes":"400x400",
             "type":"image/png"
         }
+    ],
+    "protocol_handlers": [
+        {
+            "protocol": "web+crudfirebase",
+            "url": "/index.html?utm_source=web_app_manifest"
+        }
     ]
 }
