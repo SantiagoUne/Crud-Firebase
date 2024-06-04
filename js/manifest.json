@@ -20,7 +20,7 @@
     "protocol_handlers": [
         {
             "protocol": "web+crudfirebase",
-            "url": "/index.html?utm_source=web_app_manifest"
+            "url": "/protocol_handler?uri=%s"
         }
     ]
 }
