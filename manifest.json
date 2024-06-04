@@ -7,7 +7,7 @@
     "orientation": "portrait",
     "display": "standalone",
     "start_url": "https://santiagoune.github.io/Crud-Firebase/",
-    "scope": "/",
+    "scope": "/Crud-Firebase/",    
     "lang": "es-MX",
     "icons": [
         {
