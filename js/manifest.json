@@ -25,6 +25,20 @@
             "sizes": "400x400",
             "type": "image/png"
         }
+    ],
+    "screenshots": [
+        {
+            "src": "/img/screenshotpc.png",
+            "sizes": "2516x1235",
+            "type": "image/jpg",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/img/screenshottelefono.png",
+            "sizes": "1018x1154",
+            "type": "image/jpg"
+        }
     ]
+    
     
 }
