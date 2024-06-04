@@ -1,18 +1,16 @@
 const CACHE_NAME = 'v1_cache_CRUD_FIREBASE';
 urlsToCache = [
-    './index.html',
-    './css/Styles.css',
-    './img/logo.png',
-    './img/logo2.png',
-    './img/logo3.png',
-    './img/screenshotpc.png',
-    './img/screenshottelefono.png',
-    './js/app.js',
-    './js/firebase.js',
-    './js/footer.js',
-    './js/header.js',
-    './js/manifest.json',
-    './js/sw.js'
+  './',
+  './Styles.css',
+  './app.js',
+  './img/logo.png',
+  './img/logo2.png',
+  './img/logo3.png',
+  './img/screenshotpc.png',
+  './img/screenshottelefono.png',
+  './footer.js',
+  './header.js',
+  './firebase.js',
 ]
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
 self.addEventListener('install', e => {
